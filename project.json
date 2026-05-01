@@ -1,0 +1,27 @@
+{
+  "overview": "SADHYA is a premium landing website for an exclusive Kerala supper club dining experience. It showcases the brand's warm, cultural identity through Kerala-inspired design, featuring sections for the experience story, menu preview, event details, and a booking form with WhatsApp integration.",
+  "features": [
+    "Full-viewport hero with Kerala-inspired animated backdrop",
+    "About section with cultural highlight cards",
+    "How-it-works experience cards",
+    "Kerala sadhya menu preview grid",
+    "Event details with date and seat info",
+    "Booking form with WhatsApp CTA",
+    "Kerala food gallery with hover zoom",
+    "Testimonials from past diners",
+    "Smooth scroll navigation with sticky header",
+    "Fully responsive mobile-first design"
+  ],
+  "category": "hospitality",
+  "tags": [
+    "supper-club",
+    "kerala",
+    "dining",
+    "landing-page",
+    "hospitality",
+    "food",
+    "events",
+    "booking"
+  ],
+  "last_updated": "2026-05-01T13:29:14.048Z"
+}

@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: Fraunces;
+    --font-body: Lora;
+    --font-mono: GeistMono;
+    --radius: 0.625rem;
+
+    --background: 0.97 0.01 50;
+    --foreground: 0.25 0.08 124;
+    --card: 0.99 0.01 50;
+    --card-foreground: 0.22 0.1 125;
+    --popover: 0.98 0.02 50;
+    --popover-foreground: 0.22 0.1 125;
+
+    --primary: 0.35 0.12 124;
+    --primary-foreground: 0.97 0.01 50;
+
+    --secondary: 0.55 0.16 95;
+    --secondary-foreground: 0.97 0.01 50;
+    --muted: 0.88 0.04 88;
+    --muted-foreground: 0.45 0.06 124;
+
+    --accent: 0.68 0.18 62;
+    --accent-foreground: 0.97 0.01 50;
+
+    --destructive: 0.55 0.22 25;
+    --destructive-foreground: 0.98 0 0;
+
+    --border: 0.92 0.02 50;
+    --input: 0.93 0.02 50;
+    --ring: 0.35 0.12 124;
+
+    --chart-1: 0.35 0.12 124;
+    --chart-2: 0.68 0.18 62;
+    --chart-3: 0.55 0.16 95;
+    --chart-4: 0.45 0.06 124;
+    --chart-5: 0.65 0.15 80;
+
+    --sidebar: 0.28 0.1 120;
+    --sidebar-foreground: 0.95 0.01 50;
+    --sidebar-primary: 0.68 0.18 62;
+    --sidebar-primary-foreground: 0.97 0.01 50;
+    --sidebar-accent: 0.55 0.16 95;
+    --sidebar-accent-foreground: 0.97 0.01 50;
+    --sidebar-border: 0.35 0.1 122;
+    --sidebar-ring: 0.68 0.18 62;
+  }
+
+  .dark {
+    --background: 0.18 0.08 120;
+    --foreground: 0.93 0.02 50;
+    --card: 0.22 0.09 118;
+    --card-foreground: 0.94 0.02 50;
+    --popover: 0.26 0.09 116;
+    --popover-foreground: 0.94 0.02 50;
+
+    --primary: 0.7 0.16 60;
+    --primary-foreground: 0.18 0.08 120;
+
+    --secondary: 0.52 0.15 95;
+    --secondary-foreground: 0.94 0.02 50;
+    --muted: 0.35 0.08 122;
+    --muted-foreground: 0.65 0.04 50;
+
+    --accent: 0.75 0.18 62;
+    --accent-foreground: 0.18 0.08 120;
+
+    --destructive: 0.65 0.19 22;
+    --destructive-foreground: 0.145 0 0;
+
+    --border: 0.32 0.08 120;
+    --input: 0.32 0.08 120;
+    --ring: 0.75 0.18 62;
+
+    --chart-1: 0.7 0.16 60;
+    --chart-2: 0.75 0.18 62;
+    --chart-3: 0.52 0.15 95;
+    --chart-4: 0.65 0.15 80;
+    --chart-5: 0.55 0.16 95;
+
+    --sidebar: 0.2 0.08 119;
+    --sidebar-foreground: 0.94 0.02 50;
+    --sidebar-primary: 0.75 0.18 62;
+    --sidebar-primary-foreground: 0.18 0.08 120;
+    --sidebar-accent: 0.52 0.15 95;
+    --sidebar-accent-foreground: 0.94 0.02 50;
+    --sidebar-border: 0.28 0.08 120;
+    --sidebar-ring: 0.75 0.18 62;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .shadow-warm-sm {
+    box-shadow: 0 2px 8px 0 rgba(139, 101, 50, 0.08);
+  }
+  .shadow-warm-md {
+    box-shadow: 0 4px 16px 0 rgba(139, 101, 50, 0.12);
+  }
+  .shadow-warm-lg {
+    box-shadow: 0 8px 24px 0 rgba(139, 101, 50, 0.18);
+  }
+  .fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+  .fade-in-down {
+    animation: fadeInDown 0.6s ease-out forwards;
+  }
+  .text-gradient-gold {
+    background: linear-gradient(
+      135deg,
+      oklch(0.68 0.18 62),
+      oklch(0.78 0.2 72),
+      oklch(0.68 0.18 62)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .bg-banana-leaf-pattern {
+    background-image: radial-gradient(
+        ellipse 60% 80% at 20% 50%,
+        oklch(0.35 0.12 124 / 0.08) 0%,
+        transparent 70%
+      ),
+      radial-gradient(
+        ellipse 40% 60% at 80% 30%,
+        oklch(0.55 0.16 95 / 0.06) 0%,
+        transparent 70%
+      ),
+      radial-gradient(
+        ellipse 50% 70% at 60% 80%,
+        oklch(0.68 0.18 62 / 0.04) 0%,
+        transparent 70%
+      );
+  }
+  .section-reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+  .section-reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .gold-divider {
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      oklch(0.68 0.18 62 / 0.5),
+      transparent
+    );
+  }
+  .brass-lamp-accent::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 1.2em;
+    background: linear-gradient(
+      to bottom,
+      oklch(0.78 0.2 72),
+      oklch(0.58 0.16 55)
+    );
+    border-radius: 1px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@font-face {
+  font-family: Fraunces;
+  src: url("/assets/fonts/Fraunces.woff2") format("woff2");
+  font-weight: 400 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url("/assets/fonts/Lora.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: GeistMono;
+  src: url("/assets/fonts/GeistMono.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
