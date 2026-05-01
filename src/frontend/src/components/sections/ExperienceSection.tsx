@@ -91,10 +91,10 @@ export function ExperienceSection() {
         {/* Bottom quote */}
         <div className="mt-16 text-center">
           <div className="gold-divider max-w-sm mx-auto mb-8" />
-          <p className="font-display text-xl sm:text-2xl italic text-foreground/60">
+          <p className="font-display text-xl sm:text-2xl italic text-foreground/90">
             "Not every meal deserves a banana leaf.{" "}
             <br className="hidden sm:block" />
-            <span className="text-foreground/80">This one does."</span>
+            <span className="text-foreground">This one does."</span>
           </p>
         </div>
       </div>

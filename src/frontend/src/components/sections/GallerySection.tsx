@@ -74,8 +74,8 @@ export function GallerySection() {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 style={{ minHeight: index === 0 ? "320px" : "160px" }}
               />
-              <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/30 transition-smooth flex items-end p-4">
-                <p className="font-body text-sm text-card opacity-0 group-hover:opacity-100 transition-smooth translate-y-2 group-hover:translate-y-0">
+              <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/50 transition-smooth flex items-end p-4">
+                <p className="font-body text-sm text-card opacity-0 group-hover:opacity-100 transition-smooth translate-y-2 group-hover:translate-y-0 drop-shadow-md">
                   {image.alt}
                 </p>
               </div>

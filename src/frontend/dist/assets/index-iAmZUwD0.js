@@ -21686,13 +21686,13 @@ function Layout({ children }) {
     /* @__PURE__ */ jsxRuntimeExports.jsx(Header, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx("main", { className: "flex-1", children }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("footer", { className: "bg-primary text-primary-foreground", "data-ocid": "footer", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider opacity-30" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider opacity-40" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-6 lg:px-8 py-16 lg:py-20", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-1", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display font-bold tracking-[0.3em] text-2xl text-accent mb-2", children: "SADHYA" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs tracking-[0.15em] uppercase text-primary-foreground/60 mb-6", children: "The Kerala Table Supper Club" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-sm leading-relaxed text-primary-foreground/70 italic", children: '"Good Food. Good People. Meaningful Connections."' })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs tracking-[0.15em] uppercase text-primary-foreground/80 mb-6", children: "The Kerala Table Supper Club" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-sm leading-relaxed text-primary-foreground italic", children: '"Good Food. Good People. Meaningful Connections."' })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs tracking-[0.15em] uppercase text-accent mb-5", children: "Navigate" }),
@@ -21712,14 +21712,14 @@ function Layout({ children }) {
                   const id = item === "Reserve" ? "booking" : item.toLowerCase().replace(/\s/g, "");
                   (_a2 = document.querySelector(`#${id}`)) == null ? void 0 : _a2.scrollIntoView({ behavior: "smooth" });
                 },
-                className: "font-body text-sm text-primary-foreground/60 hover:text-accent transition-smooth",
+                className: "font-body text-sm text-primary-foreground/80 hover:text-accent transition-smooth",
                 children: item
               }
             ) }, item)) })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs tracking-[0.15em] uppercase text-accent mb-5", children: "Connect" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-sm text-primary-foreground/70 mb-2", children: "WhatsApp / Phone" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-sm text-primary-foreground/80 mb-2", children: "WhatsApp / Phone" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               "a",
               {
@@ -21740,7 +21740,7 @@ function Layout({ children }) {
                   rel: "noopener noreferrer",
                   "data-ocid": "footer.instagram_link",
                   "aria-label": "Instagram",
-                  className: "p-2 rounded-full border border-primary-foreground/20 text-primary-foreground/60 hover:border-accent hover:text-accent transition-smooth",
+                  className: "p-2 rounded-full border border-primary-foreground/30 text-primary-foreground/80 hover:border-accent hover:text-accent transition-smooth",
                   children: /* @__PURE__ */ jsxRuntimeExports.jsx(SiInstagram, { size: 16 })
                 }
               ),
@@ -21752,7 +21752,7 @@ function Layout({ children }) {
                   rel: "noopener noreferrer",
                   "data-ocid": "footer.facebook_link",
                   "aria-label": "Facebook",
-                  className: "p-2 rounded-full border border-primary-foreground/20 text-primary-foreground/60 hover:border-accent hover:text-accent transition-smooth",
+                  className: "p-2 rounded-full border border-primary-foreground/30 text-primary-foreground/80 hover:border-accent hover:text-accent transition-smooth",
                   children: /* @__PURE__ */ jsxRuntimeExports.jsx(SiFacebook, { size: 16 })
                 }
               ),
@@ -21764,7 +21764,7 @@ function Layout({ children }) {
                   rel: "noopener noreferrer",
                   "data-ocid": "footer.whatsapp_icon_link",
                   "aria-label": "WhatsApp",
-                  className: "p-2 rounded-full border border-primary-foreground/20 text-primary-foreground/60 hover:border-accent hover:text-accent transition-smooth",
+                  className: "p-2 rounded-full border border-primary-foreground/30 text-primary-foreground/80 hover:border-accent hover:text-accent transition-smooth",
                   children: /* @__PURE__ */ jsxRuntimeExports.jsx(SiWhatsapp, { size: 16 })
                 }
               )
@@ -21773,12 +21773,12 @@ function Layout({ children }) {
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider opacity-20 mt-12 mb-8" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row items-center justify-between gap-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-body text-xs text-primary-foreground/40", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-body text-xs text-primary-foreground/60", children: [
             "© ",
             currentYear,
             " SADHYA. All rights reserved."
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-body text-xs text-primary-foreground/40", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-body text-xs text-primary-foreground/60", children: [
             "Built with love using",
             " ",
             /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -22066,16 +22066,9 @@ Notes: ${form.notes}` : ""}`;
                 "Mon – Fri: 4 PM – 9 PM",
                 "Saturday: 10 AM – 9 PM",
                 "Sunday: 10 AM – 6 PM"
-              ].map((hours) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "p",
-                {
-                  className: "font-body text-sm text-foreground/70",
-                  children: hours
-                },
-                hours
-              )) })
+              ].map((hours) => /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-sm text-foreground", children: hours }, hours)) })
             ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-accent/8 border border-accent/20 rounded-lg p-5", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-body text-xs text-accent/80 tracking-[0.05em] leading-relaxed", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-accent/10 border border-accent/30 rounded-lg p-5", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-body text-xs text-accent tracking-[0.05em] leading-relaxed", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold text-accent", children: "Note:" }),
               " Booking is confirmed only after payment. Venue details are shared 48 hours before the event."
             ] }) })
@@ -22443,11 +22436,11 @@ function ExperienceSection() {
         ),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-16 text-center", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider max-w-sm mx-auto mb-8" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-display text-xl sm:text-2xl italic text-foreground/60", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-display text-xl sm:text-2xl italic text-foreground/90", children: [
             '"Not every meal deserves a banana leaf.',
             " ",
             /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "hidden sm:block" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-foreground/80", children: 'This one does."' })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-foreground", children: 'This one does."' })
           ] })
         ] })
       ] })
@@ -22526,7 +22519,7 @@ function GallerySection() {
                       style: { minHeight: index2 === 0 ? "320px" : "160px" }
                     }
                   ),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-primary/0 group-hover:bg-primary/30 transition-smooth flex items-end p-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-sm text-card opacity-0 group-hover:opacity-100 transition-smooth translate-y-2 group-hover:translate-y-0", children: image.alt }) })
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-primary/0 group-hover:bg-primary/50 transition-smooth flex items-end p-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-sm text-card opacity-0 group-hover:opacity-100 transition-smooth translate-y-2 group-hover:translate-y-0 drop-shadow-md", children: image.alt }) })
                 ]
               },
               image.id
@@ -22602,11 +22595,11 @@ function HeroSection() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-1.5 h-1.5 rounded-full bg-accent/60" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-16 h-px bg-gradient-to-l from-transparent to-accent/50" })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-body text-base sm:text-lg lg:text-xl italic text-card/75 mb-12 leading-relaxed", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-body text-base sm:text-lg lg:text-xl italic text-card mb-12 leading-relaxed", children: [
             "It's not a restaurant. It's not catering.",
             " ",
             /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "hidden sm:block" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-card/90 font-medium not-italic", children: "It's an experience." })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-card font-medium not-italic", children: "It's an experience." })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row items-center justify-center gap-4", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -22626,7 +22619,7 @@ function HeroSection() {
                 "data-ocid": "hero.discover_button",
                 variant: "outline",
                 size: "lg",
-                className: "border-card/40 text-card hover:bg-card/10 font-body tracking-[0.1em] text-sm uppercase px-10 py-6 transition-smooth",
+                className: "border-card/60 text-card hover:bg-card/10 font-body tracking-[0.1em] text-sm uppercase px-10 py-6 transition-smooth",
                 children: "Discover SADHYA"
               }
             )
@@ -22638,7 +22631,7 @@ function HeroSection() {
               onClick: () => handleScroll("#about"),
               "data-ocid": "hero.scroll_down_button",
               "aria-label": "Scroll down",
-              className: "mt-20 flex flex-col items-center gap-2 text-card/40 hover:text-accent transition-smooth mx-auto",
+              className: "mt-20 flex flex-col items-center gap-2 text-card/80 hover:text-accent transition-smooth mx-auto",
               children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-body text-xs tracking-[0.2em] uppercase", children: "Scroll" }),
                 /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowDown, { size: 14, className: "animate-bounce" })
@@ -22749,7 +22742,7 @@ function MenuSection() {
                     )
                   ] }),
                   /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-muted-foreground leading-relaxed flex-1", children: dish.description }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-[10px] tracking-[0.1em] uppercase text-accent/70", children: dish.category })
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-[10px] tracking-[0.1em] uppercase text-accent", children: dish.category })
                 ]
               },
               dish.name
@@ -22803,7 +22796,7 @@ function TestimonialsSection() {
               /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "italic font-light text-accent", children: "Guests Say" })
             ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider max-w-xs mx-auto opacity-40" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider max-w-xs mx-auto opacity-60" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "div",
@@ -22816,13 +22809,13 @@ function TestimonialsSection() {
                   "data-ocid": `testimonials.item.${index2 + 1}`,
                   className: "bg-primary-foreground/5 border border-primary-foreground/10 rounded-lg p-8 shadow-warm-md hover:bg-primary-foreground/10 transition-smooth flex flex-col gap-6",
                   children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-display text-5xl text-accent/40 leading-none select-none", children: '"' }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-base leading-relaxed text-primary-foreground/80 italic flex-1", children: testimonial.quote }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 pt-2 border-t border-primary-foreground/10", children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-display text-5xl text-accent/70 leading-none select-none", children: '"' }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-base leading-relaxed text-primary-foreground italic flex-1", children: testimonial.quote }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 pt-2 border-t border-primary-foreground/20", children: [
                       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display text-sm font-bold text-accent", children: testimonial.initials }) }),
                       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
                         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-sm font-semibold text-primary-foreground", children: testimonial.name }),
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-primary-foreground/50", children: testimonial.title })
+                        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-body text-xs text-primary-foreground/80", children: testimonial.title })
                       ] })
                     ] })
                   ]

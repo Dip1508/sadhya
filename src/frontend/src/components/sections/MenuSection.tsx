@@ -120,7 +120,7 @@ export function MenuSection() {
               <p className="font-body text-xs text-muted-foreground leading-relaxed flex-1">
                 {dish.description}
               </p>
-              <p className="font-body text-[10px] tracking-[0.1em] uppercase text-accent/70">
+              <p className="font-body text-[10px] tracking-[0.1em] uppercase text-accent">
                 {dish.category}
               </p>
             </div>

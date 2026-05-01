@@ -125,18 +125,15 @@ export function BookingSection() {
                   "Saturday: 10 AM – 9 PM",
                   "Sunday: 10 AM – 6 PM",
                 ].map((hours) => (
-                  <p
-                    key={hours}
-                    className="font-body text-sm text-foreground/70"
-                  >
+                  <p key={hours} className="font-body text-sm text-foreground">
                     {hours}
                   </p>
                 ))}
               </div>
             </div>
 
-            <div className="bg-accent/8 border border-accent/20 rounded-lg p-5">
-              <p className="font-body text-xs text-accent/80 tracking-[0.05em] leading-relaxed">
+            <div className="bg-accent/10 border border-accent/30 rounded-lg p-5">
+              <p className="font-body text-xs text-accent tracking-[0.05em] leading-relaxed">
                 <span className="font-semibold text-accent">Note:</span> Booking
                 is confirmed only after payment. Venue details are shared 48
                 hours before the event.

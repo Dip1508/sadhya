@@ -67,10 +67,10 @@ export function HeroSection() {
           </div>
 
           {/* Tagline */}
-          <p className="font-body text-base sm:text-lg lg:text-xl italic text-card/75 mb-12 leading-relaxed">
+          <p className="font-body text-base sm:text-lg lg:text-xl italic text-card mb-12 leading-relaxed">
             It's not a restaurant. It's not catering.{" "}
             <br className="hidden sm:block" />
-            <span className="text-card/90 font-medium not-italic">
+            <span className="text-card font-medium not-italic">
               It's an experience.
             </span>
           </p>
@@ -90,7 +90,7 @@ export function HeroSection() {
               data-ocid="hero.discover_button"
               variant="outline"
               size="lg"
-              className="border-card/40 text-card hover:bg-card/10 font-body tracking-[0.1em] text-sm uppercase px-10 py-6 transition-smooth"
+              className="border-card/60 text-card hover:bg-card/10 font-body tracking-[0.1em] text-sm uppercase px-10 py-6 transition-smooth"
             >
               Discover SADHYA
             </Button>
@@ -102,7 +102,7 @@ export function HeroSection() {
             onClick={() => handleScroll("#about")}
             data-ocid="hero.scroll_down_button"
             aria-label="Scroll down"
-            className="mt-20 flex flex-col items-center gap-2 text-card/40 hover:text-accent transition-smooth mx-auto"
+            className="mt-20 flex flex-col items-center gap-2 text-card/80 hover:text-accent transition-smooth mx-auto"
           >
             <span className="font-body text-xs tracking-[0.2em] uppercase">
               Scroll

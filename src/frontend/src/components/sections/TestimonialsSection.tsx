@@ -50,7 +50,7 @@ export function TestimonialsSection() {
             What Our <br />
             <span className="italic font-light text-accent">Guests Say</span>
           </h2>
-          <div className="gold-divider max-w-xs mx-auto opacity-40" />
+          <div className="gold-divider max-w-xs mx-auto opacity-60" />
         </div>
 
         {/* Testimonials */}
@@ -65,13 +65,13 @@ export function TestimonialsSection() {
               className="bg-primary-foreground/5 border border-primary-foreground/10 rounded-lg p-8 shadow-warm-md hover:bg-primary-foreground/10 transition-smooth flex flex-col gap-6"
             >
               {/* Quote mark */}
-              <div className="font-display text-5xl text-accent/40 leading-none select-none">
+              <div className="font-display text-5xl text-accent/70 leading-none select-none">
                 "
               </div>
-              <p className="font-body text-base leading-relaxed text-primary-foreground/80 italic flex-1">
+              <p className="font-body text-base leading-relaxed text-primary-foreground italic flex-1">
                 {testimonial.quote}
               </p>
-              <div className="flex items-center gap-3 pt-2 border-t border-primary-foreground/10">
+              <div className="flex items-center gap-3 pt-2 border-t border-primary-foreground/20">
                 <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
                   <span className="font-display text-sm font-bold text-accent">
                     {testimonial.initials}
@@ -81,7 +81,7 @@ export function TestimonialsSection() {
                   <p className="font-display text-sm font-semibold text-primary-foreground">
                     {testimonial.name}
                   </p>
-                  <p className="font-body text-xs text-primary-foreground/50">
+                  <p className="font-body text-xs text-primary-foreground/80">
                     {testimonial.title}
                   </p>
                 </div>
